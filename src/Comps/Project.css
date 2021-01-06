@@ -1,0 +1,76 @@
+.project__card {
+  background-color: rgb(35, 64, 107);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 400px;
+  height: 350px;
+}
+
+.project__image {
+  width: 100%;
+  height: 240px;
+  border-radius: 5px;
+}
+
+.project__imageone {
+  position: relative;
+  border-radius: 5px;
+}
+
+.project__title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: lightgray;
+}
+
+.project__button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project__imageone:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+  border-radius: 5px;
+}
+
+.project__codebutton {
+  width: 30% !important;
+}
+
+.project__demobutton {
+  width: 30% !important;
+}
+
+.app__projectheading {
+  text-align: center;
+}
+
+.project__button {
+  padding-bottom: 10px;
+}
